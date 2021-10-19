@@ -1,11 +1,14 @@
-## My Project
+## PHP Runtime on Amazon Lambda
 
-TODO: Fill this README out!
+Welcome! This repository contains various resources and code snippets to help you get started on Serverless applications using PHP.
 
-Be sure to:
+## [PHP Layer Source](lambda-php-runtime)
 
-* Change the title in this README
-* Edit your repository description on GitHub
+This directory contains the bootstrap script along with a binary PHP executable which was compiled using the PHP Layer Builder template for reference.
+
+## [PHP Layer Builder](lambda-layer-builder)
+
+This is a Cloudformation template that automatically creates the desired PHP Runtime and Lambda layer easily and quickly.
 
 ## Security
 
